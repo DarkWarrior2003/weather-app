@@ -8,7 +8,7 @@ import rain from "./assests/rain.png";
 import snow from "./assests/snow.png";
 
 export default function Weather() {
-  const api = "b9eb8fca46e535104e4d0b542e2cd6c7";
+  const api = "";
   const [wicon, setwicon] = useState(clouds);
   const checkweather = async () => {
     const searchBox = document.querySelector(".form-control");
